@@ -8,7 +8,7 @@ def get_my_turn():
             print("Invalid choice. Please choose Rock, Paper, or Scissors.")
 
 def get_comp_turn():
-    choices = ["rock", "paper", "scissors"]
+    choices = ["r", "p", "s"]
     return random.choice(choices)
 
 def evaluate_turns(my_turn, comp_turn):
