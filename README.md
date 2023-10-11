@@ -1,5 +1,6 @@
 # Rock-Paper-Scissor
 You probably already know how to play Rock Paper Scissors. It's a really simple game for fun. 
+
 It really depends on your luck to win this game because it is played by the random criteria.. 
 
 # How to Play
