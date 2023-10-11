@@ -16,9 +16,9 @@ def evaluate_turns(my_turn, comp_turn):
     if my_turn == comp_turn:
         return "DRAW!!!"
     if (
-        (my_turn == "r" and comp_turn == "scissors") or
-        (my_turn == "p" and comp_turn == "rock") or
-        (my_turn == "s" and comp_turn == "paper")
+        (my_turn == "r" and comp_turn == "s") or
+        (my_turn == "p" and comp_turn == "r") or
+        (my_turn == "s" and comp_turn == "p")
     ):
         return "You win🎉✨"
     return "Computer wins🎊🎉"
