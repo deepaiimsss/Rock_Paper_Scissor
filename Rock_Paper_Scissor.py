@@ -12,6 +12,7 @@ def get_comp_turn():
     return random.choice(choices)
 
 def evaluate_turns(my_turn, comp_turn):
+    my_turn = my_turn.lower() 
     if my_turn == comp_turn:
         return "DRAW!!!"
     if (
